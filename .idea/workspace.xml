@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a078e980-0827-4f86-ba8a-072f007fa7d7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Julien/AurelieSmithScript.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Julien/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Julien/Menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Julien/VirtuaVelo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Julien/VirtuaVelo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/Menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/Mont-ventoux/1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/Mont-ventoux/2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/VirtuaVelo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/logo/logovelo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/polices/212 Sports.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/polices/AurelieSmithScript.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/polices/Sport Day Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/polices/Sport-Day-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Julien/polices/UrbanJungleDEMO.otf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,8 +53,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -56,7 +69,7 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="MainFen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="AxisController" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="VirtuaVelo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,7 +82,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Julien/MainFen.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Julien/AxisController.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +91,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MainWin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Controller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="VirtuaVelo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -86,12 +100,11 @@
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Julien" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Julien/MainWin.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Julien/Controller.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,10 +182,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.Controller" />
+        <item itemvalue="Python.AxisController" />
         <item itemvalue="Python.VirtuaVelo" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.MainWin" />
-        <item itemvalue="Python.MainFen" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +206,12 @@
       <workItem from="1611238157124" duration="2768000" />
       <workItem from="1611242713640" duration="1704000" />
       <workItem from="1611343355178" duration="1832000" />
-      <workItem from="1611357457430" duration="14883000" />
+      <workItem from="1611357457430" duration="17198000" />
+      <workItem from="1611532714674" duration="1560000" />
+      <workItem from="1611559175809" duration="4227000" />
+      <workItem from="1611566985515" duration="9715000" />
+      <workItem from="1611593841183" duration="1067000" />
+      <workItem from="1611648560842" duration="5015000" />
     </task>
     <servers />
   </component>
@@ -213,9 +231,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/VirtuaVelo$Controller.coverage" NAME="Controller Coverage Results" MODIFIED="1611648911822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Julien" />
     <SUITE FILE_PATH="coverage/VirtuaVelo$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1611221456676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Julien" />
     <SUITE FILE_PATH="coverage/VirtuaVelo$MainFen.coverage" NAME="MainFen Coverage Results" MODIFIED="1611218782593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Julien" />
     <SUITE FILE_PATH="coverage/VirtuaVelo$VirtuaVelo.coverage" NAME="VirtuaVelo Coverage Results" MODIFIED="1611343537018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Julien" />
-    <SUITE FILE_PATH="coverage/VirtuaVelo$main.coverage" NAME="main Coverage Results" MODIFIED="1611487465622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Julien" />
+    <SUITE FILE_PATH="coverage/VirtuaVelo$main.coverage" NAME="main Coverage Results" MODIFIED="1611650084252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Julien" />
+    <SUITE FILE_PATH="coverage/VirtuaVelo$AxisController.coverage" NAME="AxisController Coverage Results" MODIFIED="1611579946146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Julien" />
   </component>
 </project>
