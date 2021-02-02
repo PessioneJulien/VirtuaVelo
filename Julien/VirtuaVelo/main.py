@@ -1,58 +1,44 @@
-from PyQt5.QtWidgets import *
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
 
-# Only needed for access to command line arguments
+#!/usr/bin/python
+
 import sys
+from PyQt5.QtWidgets import (QWidget, QPushButton,
+                             QHBoxLayout, QVBoxLayout, QApplication)
 
 
-# Subclass QMainWindow to customise your application's main window
-class MainWindow(QMainWindow):
+class Example(QWidget):
 
-    def __init__(self, *args, **kwargs):
-        super(MainWindow, self).__init__(*args, **kwargs)
+    def __init__(self):
+        super().__init__()
+        self.title = "Main Menu"
+        self.left = 500
+        self.top = 400
+        self.width = 300
+        self.height = 300
+        self.initUI()
 
-        self.setWindowTitle("My Awesome App")
+    def initUI(self):
+        self.setGeometry(self.left, self.top, self.width, self.height)
+        self.setWindowTitle(self.title)
+        self.createLayout()
+        self.show()
 
-        layout = QVBoxLayout()
-        widgets = [QCheckBox,
-                   QComboBox,
-                   QDateEdit,
-                   QDateTimeEdit,
-                   QDial,
-                   QDoubleSpinBox,
-                   QFontComboBox,
-                   QLCDNumber,
-                   QLabel,
-                   QLineEdit,
-                   QProgressBar,
-                   QPushButton,
-                   QRadioButton,
-                   QSlider,
-                   QSpinBox,
-                   QTimeEdit]
+    def createLayout(self):
+        okButton = QPushButton("OK")
+        cancelButton = QPushButton("Cancel")
+        Mainhbox = QHBoxLayout()
+        Mainhbox.addStretch(0)
+        Mainhbox.addWidget(okButton)
+        Mainhbox.addWidget(cancelButton)
 
-        for w in widgets:
-            layout.addWidget(w())
-
-        widget = QWidget()
-        widget.setLayout(layout)
-
-        # Set the central widget of the Window. Widget will expand
-        # to take up all the space in the window by default.
-        self.setCentralWidget(widget)
+        self.setLayout(Mainhbox)
 
 
-# You need one (and only one) QApplication instance per application.
-# Pass in sys.argv to allow command line arguments for your app.
-# If you know you won't use command line arguments QApplication([]) works too.
-app = QApplication(sys.argv)
+def main():
+    app = QApplication(sys.argv)
+    Example()
+    sys.exit(app.exec_())
 
-window = MainWindow()
-window.show()  # IMPORTANT!!!!! Windows are hidden by default.
 
-# Start the event loop.
-app.exec_()
-
-# Your application won't reach here until you exit and the event
-# loop has stopped.
+if __name__ == '__main__':
+    main()

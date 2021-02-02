@@ -1,0 +1,6 @@
+QPushButton {
+    background-color: qlineargradient(x1: 0, y1: 1, x2: 2, y2: 3, stop: 0 white, stop: 1 black);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50%;
+} /* anyQelement.setStyleSheet(open('mystylesheet.css').read()) */
