@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddbf8bb2-53bd-4e4d-9541-3d83b1a834a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Julien/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Julien/Main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Julien/VirtuaVelo/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Julien/VirtuaVelo/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -98,6 +99,8 @@
       <workItem from="1612038055990" duration="504000" />
       <workItem from="1612039339922" duration="2225000" />
       <workItem from="1612042858489" duration="7088000" />
+      <workItem from="1612427093616" duration="339000" />
+      <workItem from="1612430059135" duration="6383000" />
     </task>
     <servers />
   </component>
